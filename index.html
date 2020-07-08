@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Calculator</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main_div">
+        <input type="text" id="input"/>
+        <div id="keys">
+            <button id="Clear" onclick="clearBtn()">C</button>
+            <div class="buttons">
+            <button class="btn" onclick="getNum(7)">7</button>
+            <button class="btn" onclick="getNum(8)">8</button>
+            <button class="btn" onclick="getNum(9)">9</button>
+            <button class="btn" onclick="getNum('*')">X</button>
+            </div>
+            <div>
+            <button class="btn" onclick="getNum(4)">4</button>
+            <button class="btn" onclick="getNum(5)">5</button>
+            <button class="btn" onclick="getNum(6)">6</button>
+            <button class="btn" onclick="getNum('-')">-</button>
+            </div>
+            <div>
+            <button class="btn" onclick="getNum(1)">1</button>
+            <button class="btn" onclick="getNum(2)">2</button>
+            <button class="btn" onclick="getNum(3)">3</button>
+            <button class="btn" onclick="getNum('+')">+</button>
+            </div>
+            <div>
+            <button class="btn" onclick="getNum('/')">/</button>
+            <button class="btn" onclick="getNum(0)">0</button>
+            <button class="btn" onclick="getNum('.')">.</button>
+            <button class="btn" onclick="result()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js" ></script>
+</body>
+</html>
